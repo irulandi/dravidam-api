@@ -13,22 +13,22 @@
 const env = {
     secret: "quiz",
     isLive: true,
-    'UAT':{
-      database: 'quizdb',
-      username: 'karuniya',
-      password: 'Pwd07kn2019',
-      host: '192.168.1.101',
-      dialect: 'mysql',
-      ssl:true,
-      dialectOptions: { ssl: { require: true } } ,
-      pool: {
-        max: 5,
-        min: 0,
-        acquire: 30000, 
-        idle: 10000
-      },
-      secret: "quiz",
-    },
+   // 'UAT':{
+   //   database: 'quizdb',
+  //    username: 'karuniya',
+  //    password: 'Pwd07kn2019',
+ //     host: '192.168.1.101',
+ //     dialect: 'mysql',
+ //     ssl:true,
+ //     dialectOptions: { ssl: { require: true } } ,
+//      pool: {
+ //       max: 5,
+ //       min: 0,
+ //       acquire: 30000, 
+ //       idle: 10000
+ //     },
+ //     secret: "quiz",
+ //   },
   
     'LIVE':{
       database: 'quizdb',
