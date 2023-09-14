@@ -55,7 +55,7 @@ const models = require('./database/models');
 models.sequelize.sync();
 require('./routes')(app);
 
-const port = 80;
+const port = 3000;
 app.listen(port, () => {
     console.log(`Server is listening on port ${port}!`);
 });
